@@ -3,7 +3,7 @@ import { Product } from '@/types';
 export const productsDb: Array<Product> = [
   {
     id: 1,
-    brand: 'Louis Vitton',
+    brand: 'Louis Vuitton',
     ideal_for: 'men',
     title: 'Oversize Puffer',
     imageUrl:
@@ -13,7 +13,7 @@ export const productsDb: Array<Product> = [
   },
   {
     id: 2,
-    brand: 'Louis Vitton',
+    brand: 'Louis Vuitton',
     ideal_for: 'men',
     title: 'Mouline Monogram Regular Shirt',
     imageUrl:

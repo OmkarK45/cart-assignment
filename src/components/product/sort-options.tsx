@@ -14,7 +14,7 @@ export function SortOptions({
 }) {
   return (
     <div>
-      <label className='text-base font-medium uppercase text-gray-500 text-gray-900'>
+      <label className='text-base font-medium uppercase text-gray-500'>
         Sort by
       </label>
       <fieldset className='mt-4'>

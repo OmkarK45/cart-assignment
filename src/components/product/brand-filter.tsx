@@ -2,19 +2,19 @@ import React from 'react';
 
 export const brandFilters = [
   {
-    value: 'nike',
+    value: 'Nike',
     label: 'NIKE',
   },
   {
-    value: 'gucci',
+    value: 'GUCCI',
     label: 'GUCCI',
   },
   {
-    value: 'h&m',
+    value: 'H&M',
     label: 'H&M',
   },
   {
-    value: 'louis vuitton',
+    value: 'Louis Vuitton',
     label: 'LOUIS VUITTON',
   },
 ];

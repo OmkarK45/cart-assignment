@@ -1,6 +1,9 @@
 import { Product, SortTypes } from '@/types';
 
-export function getSortedProducts(products: Array<Product>, sortBy: SortTypes) {
+export function getSortedProducts(
+  products: Array<Product>,
+  sortBy: SortTypes | null
+) {
   const productsCopy = JSON.parse(JSON.stringify(products)) as Array<Product>;
 
   switch (sortBy) {

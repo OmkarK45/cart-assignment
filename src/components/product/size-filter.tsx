@@ -2,19 +2,19 @@ import React from 'react';
 
 export const sizeFilters = [
   {
-    value: 's',
+    value: 'S',
     label: 'S',
   },
   {
-    value: 'm',
+    value: 'M',
     label: 'M',
   },
   {
-    value: 'l',
+    value: 'L',
     label: 'L',
   },
   {
-    value: 'xl',
+    value: 'XL',
     label: 'XL',
   },
 ];
