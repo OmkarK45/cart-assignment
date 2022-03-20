@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { productsDb } from '@/data/products';
 
 import Layout from '@/components/layout/Layout';
+import ArrowLink from '@/components/links/ArrowLink';
 import { BrandFilter } from '@/components/product/brand-filter';
 import { CategoryFilter } from '@/components/product/category-filter';
 import { ProductCard } from '@/components/product/product-card';
@@ -41,6 +42,11 @@ export default function HomePage({ products }: { products: Array<Product> }) {
             categoryFilter={categoryFilter}
             setCategoryFilter={setCategoryFilter}
           />
+          <p className='mt-2 text-sm text-gray-700'>
+            <ArrowLink href='https://github.com/omkark45/cart-assignment'>
+              See the repository
+            </ArrowLink>
+          </p>
         </div>
         <div className='mt-4 md:mt-0 lg:col-span-3'>
           <div className='grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-10 lg:gap-x-8'>

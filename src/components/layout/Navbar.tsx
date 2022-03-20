@@ -5,7 +5,7 @@ export function NavBar() {
     <div className='mx-auto mb-10 bg-indigo-500 py-4 shadow-md '>
       <div className='mx-auto flex max-w-7xl items-center justify-between'>
         <div className='flex-1'>
-          <h1 className='text-2xl font-semibold tracking-tighter'>
+          <h1 className='text-2xl font-semibold tracking-tighter text-white'>
             SimpleCommerce
           </h1>
         </div>
